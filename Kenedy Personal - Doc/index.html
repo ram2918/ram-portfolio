@@ -1,273 +1,635 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="zxx" class="no-js">
 
 <head>
-	<meta charset="utf-8">
-	<title>Kenedy Personal</title>
-	<meta name="description" content="">
 	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Kenedy Personal</title>
 
-	<!-- <link rel="shortcut icon" href="img/favicon.png"> -->
-
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
-
-	<!-- Syntax Highlighter -->
-	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
-	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
-
-	<!-- Font Awesome CSS-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- Normalize/Reset CSS-->
-	<link rel="stylesheet" href="css/normalize.min.css">
-	<!-- Main CSS-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
-
 </head>
 
-<body id="welcome">
+<body>
 
-	<aside class="left-sidebar">
-		<div class="logo">
-			<a href="#welcome">
-				<img src="img/logo.png" alt="">
-			</a>
-		</div>
-		<nav class="left-nav">
-			<ul id="nav">
-				<li class="current"><a href="#welcome">Welcome</a></li>
-				<li><a href="#installation">Installation</a></li>
-				<li><a href="#tmpl-structure">Structure</a></li>
-				<li><a href="#css-structure">CSS Files</a></li>
-				<li><a href="#javascript">JavaScript Libraries</a></li>
-				<li><a href="#contact-form">Contact Form</a></li>
-				<li><a href="#subscription-form">Subscription Form</a></li>
-				<li><a href="#video">Video Tutorial</a></li>
-				<li><a href="#credit">Source and Credit</a></li>
-			</ul>
-		</nav>
-	</aside>
-
-	<div id="main-wrapper">
-		<div class="main-content">
-			<section id="welcome">
-				<div class="content-header">
-					<h1>Kenedy Personal Html5 Responsive Template</h1>
-				</div>
-				<div class="welcome">
-
-					<h2 class="twenty">Welcome To Kenedy Personal Html5 Responsive Template</h2>
-
-					<p>Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!</p>
-
-					<p>This document covers the installation and use of this theme and often reveals answers to common problems and issues
-						- read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond
-						the scope of this document, feel free to email at <code><a href="mailto:support@colorlib.com">support@colorlib.com</a></code>						Thank
-						you so much!</p>
-				</div>
-
-				<div class="features">
-					<h2 class="twenty">Template Features</h2>
-
-					<ul>
-						<li>Clean &amp; Simple Design</li>
-						<li>HTML5 &amp; CSS3</li>
-						<li>Fully Responsive Design</li>
-						<li>PHP/Ajax Powered Working Contact Form</li>
-						<li>All files are well commented</li>
-						<li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, Chrome</li>
-						<li>Extensive Documentation</li>
-					</ul>
-				</div>
-
-			</section>
-
-			<section id="installation">
-				<div class="content-header">
-					<h1>Kenedy Personal Html5 Responsive Template</h1>
-				</div>
-				<h2 class="title">Installing Template.</h2>
-
-				<div class="section-content">
-					<ol>
-						<li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
-						<li>You can view this Template in any browser, you can display or edit the Template without an internet connection.(May
-							not wotrk fonts and google map).</li>
-						<li>The only section that will not work is the Contact Section which contains PHP code and requires a server environment
-							for send messages.</li>
-						<li>Now go to your cpanel or open your FTP Client (like <a target="_blank" href="https://filezilla-project.org/download.php">Filezilla</a>)
-							and upload the content of the Template on your server root.</li>
-						<li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
-					</ol>
-				</div>
-
-			</section>
-
-
-			<section id="tmpl-structure">
-				<h2 class="title">Template Structure</h2>
-				<p class="fifteen">All information within the main content area is nested within a body tag. The general template structure
-					is pretty the same throughout the template. Here is the general structure of main page (index.html).</p>
-				<pre class="brush: html">
-		                <header class="site-header">
-		                	
-		                </header>
-
-		                <main class="site-main">
-		                	<section class="section">
-		                		
-		                	</section>
-		                	<section class="section">
-		                		
-		                	</section>
-		                	<section class="section">
-		                		
-		                	</section>
-		                </main>
-
-		                <footer class="site-footer">
-		                	
-		                </footer>
-		            </pre>
-			</section>
-
-
-			<section id="css-structure">
-				<h2 class="title">CSS Files and Structure</h2>
-				<p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
-				<pre class="brush: html">
-		                <!--
-						CSS
-						============================================= -->
-						<link rel="stylesheet" href="css/linearicons.css">
-						<link rel="stylesheet" href="css/owl.carousel.css">
-						<link rel="stylesheet" href="css/font-awesome.min.css">
-						<link rel="stylesheet" href="css/nice-select.css">
-						<link rel="stylesheet" href="css/magnific-popup.css">
-						<link rel="stylesheet" href="css/bootstrap.css">
-						<link rel="stylesheet" href="css/main.css">
-					</pre>
-
-				<h2 class="title">Google Web Fonts</h2>
-
-				<p>By default, the template loads this font from Google Web Font Services, you can change the font with the one that
-					suits you best.</p>
-
-				<pre class="brush:html">		                
-						<!--
-						Google Font
-						=========================== -->
-		                <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-						<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
-		            </pre>
-
-				<p class="twenty">Remember to change the font into <strong>main.css</strong></p>
-			</section>
-
-			<section id="javascript">
-				<h2 class="title">Javascript Files and Structure</h2>
-
-				<p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the <strong>Body Section</strong>.
-
-					<pre class="brush: html">
-				        <!--
-						JavaScripts
-						========================== -->
-						<script src="js/vendor/jquery-2.2.4.min.js"></script>
-						<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-						<script src="js/vendor/bootstrap.min.js"></script>
-						<script src="js/jquery.ajaxchimp.min.js"></script>
-						<script src="js/owl.carousel.min.js"></script>
-						<script src="js/jquery.nice-select.min.js"></script>
-						<script src="js/jquery.magnific-popup.min.js"></script>
-						<script src="js/main.js"></script>
-		            </pre>
-			</section>
-
-			<section id="contact-form">
-				<h2 class="title"> Contact Form </h2>
-				<p>This is a PHP Script for sending messages to your email, you should replace <strong>support@colorlib.com</strong>
-					to your email to start receive messages.</p>
-				<pre class="brush:php">
-	                    $to = 'demo@site.com'; // replace this mail with yours
-					    $firstname = $_POST["fname"];
-					    $email= $_POST["email"];
-					    $headers = 'MIME-Version: 1.0' . "\r\n";
-					    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
-					    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-					    $message ='<table style="width:100%">
-					        <tr>
-					            <td>'.$firstname.'  '.$laststname.'</td>
-					        </tr>
-					        <tr><td>Email: '.$email.'</td></tr>
-					    </table>';
-
-					    if (@mail($to, $email, $message, $headers))
-					    {
-					        echo 'The message has been sent.';
-					    }else{
-					        echo 'failed';
-					    }
-		            </pre>
-			</section>
-			<section id="subscription-form">
-				<h2 class="title"> Subscription Form </h2>
-				<p>Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".</p>
-				<pre class="brush: javascript">
-				        <div id="mc_embed_signup">
-				        	//Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
-				        	<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center"></form>
-				        </div>
-		            </pre>
-			</section>
-			<section id="video">
-				<h2 class="title"> Video Tutorial </h2>
-				<!-- 21:9 aspect ratio -->
-				<div class="embed-responsive embed-responsive-21by9">
-					<iframe class="embed-responsive-item" width="100%" height="515" src="https://www.youtube.com/embed/i7_PRPLOxVE?rel=0&amp;controls=0&amp;showinfo=0"
-					 frameborder="0" allowfullscreen></iframe>
-				</div>
-			</section>
-			<section id="credit">
-				<h2 class="title">Source and Credit</h2>
-				<div class="script-source">
-					<ul>
-						<li><a target="_blank" href="http://www.pexels.com">Pexels</a></li>
-						<li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
-						<li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
-						<li><a target="_blank" href="http://www.owlgraphic.com/owlcarousel">Owl Carousel</a></li>
-						<li><a target="_blank" href="https://github.com/iamMonzurul/jQuery-AJAX-MailChimp">Ajax Mailchimp</a></li>
-						<li><a target="_blank" href="http://fontawesome.io/">FontAwesome</a></li>
-						<li><a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">Magnefic Pop Up</a></li>
-						<li><a target="_blank" href="http://hernansartorio.com/jquery-nice-select/">Nice Select</a></li>
-						<li><a target="_blank" href="https://linearicons.com/">Linear Icons</a></li>
-					</ul>
-				</div>
-			</section>
+	<!-- Start Preloader Area -->
+	<div class="preloader-area">
+		<div class="loader-box">
+			<div class="loader"></div>
 		</div>
 	</div>
+	<!-- End Preloader Area -->
 
 
-	<!-- Essential JavaScript Libraries
-		==============================================-->
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="js/jquery.nav.js"></script>
-	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script>
-	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script>
-	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script>
-	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script>
-	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script>
-	<script type="text/javascript">
-		SyntaxHighlighter.all()
-	</script>
-	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- Start Header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center d-flex">
+				<div id="logo">
+					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class=""><a class="active" href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li class="menu-has-children"><a href="#">Pages</a>
+							<ul>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="services.html">Service</a></li>
+								<li><a href="portfolio-details.html">Portfolio Details</a></li>
+							</ul>
+						</li>
+						<li class="menu-has-children"><a href="">Blog</a>
+							<ul>
+								<li><a href="blog-home.html">Blog Home</a></li>
+								<li><a href="blog-single.html">Blog Single</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
 
+
+	<!-- start banner Area -->
+	<section class="home-banner-area">
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center">
+				<div class="banner-content col-lg-6 col-md-12 justify-content-center ">
+					<div class="me wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">It's me</div>
+					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Leela ram k</h1>
+					<div class="designation mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s">
+						Product 
+						<span class="designer"></span>						 
+						<span class="developer">Developer</span>
+					</div>
+					<a href="#" class="primary-btn" data-text="Hire Me">
+						<span>H</span>
+						<span>i</span>
+						<span>r</span>
+						<span>e</span>
+						<span> </span>
+						<span>M</span>
+						<span>e</span>
+					</a>
+				</div>
+				<div class="banner-img col-lg-6 col-md-6 align-self-end">
+					<img class="img-fluid" src="img/banner-img.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+
+	<!-- Start brands Area -->
+	<!-- <section class="brands-area">
+		<div class="container">
+			<div class="brand-wrap">
+				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brand/b1.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brand/b2.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brand/b3.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brand/b4.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brand/b5.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End brands Area -->
+
+
+	<!-- Start About Area -->
+	<section class="about-area section-gap">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 about-left">
+					<img class="img-fluid" src="img/about-img.jpg" alt="">
+				</div>
+				<div class="col-lg-5 col-md-12 about-right">
+					<div class="section-title">
+						<h2>about myself</h2>
+					</div>
+					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+						<p>
+							Seeking for a Software Developer position in a fast growing organization to utilize expertise in software development and testing, as well as deployment and
+							 support using agile development methodologies Innovative team player with a passion for continuous learning and strong knowledge of end-to-end systems development life cycles.		</p>
+						<p>
+							 Innovative team player with a passion for continuous learning and strong knowledge of end-to-end systems development life cycles.
+			
+						</p>
+					</div>
+					<!-- <a href="#" class="primary-btn white" data-text="More Info">
+						<span>M</span>
+						<span>o</span>
+						<span>r</span>
+						<span>e</span>
+						<span> </span>
+						<span>I</span>
+						<span>n</span>
+						<span>f</span>
+						<span>o</span>
+					</a> -->
+					<a href="#" class="primary-btn" data-text="Resume">
+						<span>R</span>
+						<span>e</span>
+						<span>s</span>
+						<span>u</span>
+						<span>m</span>
+						<span>e</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Area -->
+
+
+	<!-- Start Work Area Area -->
+	<!-- <section class="work-area section-gap-top section-gap-bottom-90" id="work">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-end mb-80">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Latest Works</h2>
+						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
+							some for as low as $.17 each.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="filters">
+						<ul>
+							<li class="active" data-filter=".all">All Categories</li>
+							<li data-filter=".branding">Branding</li>
+							<li data-filter=".creative">Creative Work</li>
+							<li data-filter=".web-design">Web Design</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w3.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w6.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w4.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w5.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>2D Vinyl Design</h4>
+								<div class="cat">Client Project</div>
+							</div>
+							<a class="overlay" href="portfolio-details.html"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End Work Area Area -->
+
+
+	<!-- Start Job History Area Area -->
+	<!-- <section class="job-area section-gap-top section-gap-bottom-90">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Job History</h2>
+						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
+							some for as low as $.17 each.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Senior Creative Design</h4>
+								<p>Old Bird IT, New Yorkt</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>5</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
+							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+							that there are millions of people out of the field there.
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Senior Visualiser</h4>
+								<p>Old Bird IT, New Yorkt</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>5</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+							that there are millions of people out of the field there.
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Junior Visualiser</h4>
+								<p>Old Bird IT, New Yorkt</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>5</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+							that there are millions of people out of the field there.
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Intern Designer</h4>
+								<p>Old Bird IT, New Yorkt</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>5</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+							that there are millions of people out of the field there.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End Job Historyt Area Area -->
+
+
+	<!-- Start Service Area -->
+	<section class="service-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Skills</h2>
+						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
+							some for as low as $.17 each.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-service wow fadeInUp" data-wow-duration="1s">
+						<span class="lnr lnr-screen"></span>
+						<h4>
+							<span>Web</span> Development
+						</h4>
+						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+						<span class="lnr lnr-laptop-phone"></span>
+						<h4><span>Application</span> Development
+						</h4>
+						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+						<span class="lnr lnr-database"></span>
+						<h4><span>Android</span> Development
+						</h4>
+						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+						<span class="lnr lnr-chart-bars"></span>
+						<h4><span>Cloud</span> Development
+						</h4>
+						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Service Area -->
+
+
+	<!-- Start Testimonials Area -->
+	<!-- <section class="testimonials_area section-gap">
+		<div class="container">
+			<div class="testi_slider owl-carousel">
+				<div class="item">
+					<div class="testi_item">
+						<img src="img/quote.png" alt="">
+						<h4>Fanny Spencer</h4>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+						</ul>
+						<div class="wow fadeIn" data-wow-duration="1s">
+							<p>
+								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
+								across her face <br> and She is the host to your journey.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testi_item">
+						<img src="img/quote.png" alt="">
+						<h4>Fanny Spencer</h4>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+						</ul>
+						<div class="wow fadeIn" data-wow-duration="1s">
+							<p>
+								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
+								across her face <br> and She is the host to your journey.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testi_item">
+						<img src="img/quote.png" alt="">
+						<h4>Fanny Spencer</h4>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+							<li><a href="#"><i class="fa fa-star"></i></a></li>
+						</ul>
+						<div class="wow fadeIn" data-wow-duration="1s">
+							<p>
+								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
+								across her face <br> and She is the host to your journey.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End Testimonials Area -->
+
+
+	<!-- Start Contact Area -->
+	<section class="contact-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contact-title">
+						<h2>Contact Me</h2>
+						<p>Please don't hesitate to contact me for further information.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-80">
+				<div class="col-lg-4 col-md-4">
+					<div class="contact-box">
+						<h4>+91 7448315634</h4>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="contact-box">
+						<h4>bram8230@gmail.com</h4>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="contact-box">
+						<h4>ram2918.github.io</h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<a href="#" class="primary-btn mt-50" data-text="Hire Me">
+						<span>H</span>
+						<span>i</span>
+						<span>r</span>
+						<span>e</span>
+						<span> </span>
+						<span>M</span>
+						<span>e</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Area -->
+
+
+	<!-- start footer Area -->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer-top flex-column">
+						<div class="footer-logo">
+							<a href="#">
+								<img src="img/logo.png" alt="">
+							</a>
+							<h4>Follow Me</h4>
+						</div>
+						<div class="footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row footer-bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+				 Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p>
+			</div>
+
+
+			 -->
+		</div>
+	</footer>
+	<!-- End footer Area -->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="lnr lnr-arrow-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/mn-accordion.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.circlechart.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
